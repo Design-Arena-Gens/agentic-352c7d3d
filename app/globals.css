@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b1220;
+  --card: #0f172a;
+  --muted: #94a3b8;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(180deg, #020617, #0b1220);
+  color: white;
+}
+
+.container-prose p { @apply text-slate-300; }
